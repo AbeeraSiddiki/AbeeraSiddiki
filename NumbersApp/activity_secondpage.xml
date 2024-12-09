@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B36E85"
+    tools:context=".Secondpage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="337dp"
+        android:layout_height="113dp"
+        android:fontFamily="casual"
+        android:text="Congtratulations! You guessed it right!!"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/playagainbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="Play Again"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="300dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
